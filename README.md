@@ -4,7 +4,14 @@ using private key that is encrypted using Google KMS
 ensuring that the plaintext private key is never written
 to the disk.
 
+## disclaimer
+> The use of this tool does not guarantee security or usability for
+> any particular use. Please review the code and use at your own risk.
+
 ## installation
+This step assumes you have [Go compiler toolchain](https://go.dev/dl/)
+installed on your system.
+
 Download the code and cd to the folder, then run
 ```bash
 go install
